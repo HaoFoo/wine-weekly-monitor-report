@@ -1,6 +1,6 @@
 {
   "week": "2026-W22",
-  "generatedAt": "2026-05-25 15:50",
+  "generatedAt": "2026-05-25 15:58",
   "keywords": [
     "果酒",
     "新酒饮",
@@ -10,7 +10,7 @@
     "白酒"
   ],
   "totalSites": 23,
-  "hitSites": 13,
+  "hitSites": 11,
   "results": [
     {
       "category": "国际权威",
@@ -36,9 +36,9 @@
     {
       "category": "国际权威",
       "site": "kantarworldpanel.com",
-      "status": "命中",
-      "evidence": "https://www.kantarworldpanel.com/cn/news-and-events",
-      "reason": "证据链接可访问"
+      "status": "未命中",
+      "evidence": null,
+      "reason": "主页访问失败：URLError"
     },
     {
       "category": "国际权威",
@@ -141,9 +141,9 @@
     {
       "category": "综合聚合",
       "site": "iresearch.com.cn",
-      "status": "命中",
-      "evidence": "https://www.iresearch.com.cn/",
-      "reason": "证据链接可访问"
+      "status": "未命中",
+      "evidence": null,
+      "reason": "主页访问失败：URLError"
     },
     {
       "category": "综合聚合",
