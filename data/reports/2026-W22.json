@@ -1,6 +1,6 @@
 {
   "week": "2026-W22",
-  "generatedAt": "2026-05-25 15:58",
+  "generatedAt": "2026-05-25 16:09",
   "keywords": [
     "果酒",
     "新酒饮",
@@ -10,7 +10,7 @@
     "白酒"
   ],
   "totalSites": 23,
-  "hitSites": 11,
+  "hitSites": 13,
   "results": [
     {
       "category": "国际权威",
@@ -24,21 +24,21 @@
       "site": "china.mintel.com",
       "status": "命中",
       "evidence": "https://china.mintel.com/insights/food-and-drink/future-of-alcohol-strategies-to-help-brands-diversify/",
-      "reason": "证据链接可访问"
+      "reason": "命中（证据链接）"
     },
     {
       "category": "国际权威",
       "site": "nielseniq.cn",
       "status": "命中",
       "evidence": "https://nielseniq.cn/global/zh/insights/report/2025/eleme-summer-ice-insight/",
-      "reason": "证据链接可访问"
+      "reason": "命中（证据链接）"
     },
     {
       "category": "国际权威",
       "site": "kantarworldpanel.com",
-      "status": "未命中",
-      "evidence": null,
-      "reason": "主页访问失败：URLError"
+      "status": "命中",
+      "evidence": "https://www.kantarworldpanel.com/cn/news-and-events",
+      "reason": "命中（证据链接）"
     },
     {
       "category": "国际权威",
@@ -59,7 +59,7 @@
       "site": "cir.cn",
       "status": "命中",
       "evidence": "https://www.cir.cn/",
-      "reason": "证据链接可访问"
+      "reason": "命中（证据链接）"
     },
     {
       "category": "国内专业",
@@ -73,7 +73,7 @@
       "site": "cbndata.com",
       "status": "命中",
       "evidence": "https://www.cbndata.com/report",
-      "reason": "证据链接可访问"
+      "reason": "命中（证据链接）"
     },
     {
       "category": "国内专业",
@@ -87,7 +87,7 @@
       "site": "199it.com",
       "status": "命中",
       "evidence": "https://www.199it.com/",
-      "reason": "证据链接可访问"
+      "reason": "命中（证据链接）"
     },
     {
       "category": "低成本资源",
@@ -101,7 +101,7 @@
       "site": "nint.com",
       "status": "命中",
       "evidence": "https://www.nint.com/information",
-      "reason": "证据链接可访问"
+      "reason": "命中（证据链接）"
     },
     {
       "category": "电商数据",
@@ -122,14 +122,14 @@
       "site": "similarweb.com",
       "status": "命中",
       "evidence": "https://www.similarweb.com/",
-      "reason": "证据链接可访问"
+      "reason": "命中（证据链接）"
     },
     {
       "category": "综合聚合",
       "site": "fxbaogao.com",
       "status": "命中",
       "evidence": "https://www.fxbaogao.com/",
-      "reason": "证据链接可访问"
+      "reason": "命中（证据链接）"
     },
     {
       "category": "综合聚合",
@@ -141,30 +141,30 @@
     {
       "category": "综合聚合",
       "site": "iresearch.com.cn",
-      "status": "未命中",
-      "evidence": null,
-      "reason": "主页访问失败：URLError"
+      "status": "命中",
+      "evidence": "https://www.iresearch.com.cn/",
+      "reason": "命中（证据链接）"
     },
     {
       "category": "综合聚合",
       "site": "leadleo.com",
       "status": "命中",
       "evidence": "https://www.leadleo.com/",
-      "reason": "证据链接可访问"
+      "reason": "命中（证据链接）"
     },
     {
       "category": "财务数据",
       "site": "eastmoney.com",
       "status": "命中",
       "evidence": "https://www.eastmoney.com/",
-      "reason": "证据链接可访问"
+      "reason": "命中（证据链接）"
     },
     {
       "category": "财务数据",
       "site": "10jqka.com.cn",
       "status": "命中",
       "evidence": "https://www.10jqka.com.cn/",
-      "reason": "证据链接可访问"
+      "reason": "命中（证据链接）"
     },
     {
       "category": "财务数据",
