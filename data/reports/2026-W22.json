@@ -1,6 +1,6 @@
 {
   "week": "2026-W22",
-  "generatedAt": "2026-05-25 15:38",
+  "generatedAt": "2026-05-25 15:40",
   "keywords": [
     "果酒",
     "新酒饮",
@@ -38,7 +38,7 @@
       "site": "kantarworldpanel.com",
       "status": "未命中",
       "evidence": null,
-      "reason": "未检索到关键词相关结果；主页可访问"
+      "reason": "未检索到关键词相关结果"
     },
     {
       "category": "国际权威",
@@ -143,7 +143,7 @@
       "site": "iresearch.com.cn",
       "status": "未命中",
       "evidence": null,
-      "reason": "未检索到关键词相关结果；主页可访问"
+      "reason": "未检索到关键词相关结果"
     },
     {
       "category": "综合聚合",
@@ -157,7 +157,7 @@
       "site": "eastmoney.com",
       "status": "未命中",
       "evidence": null,
-      "reason": "未检索到关键词相关结果；主页可访问"
+      "reason": "未检索到关键词相关结果"
     },
     {
       "category": "财务数据",
