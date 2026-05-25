@@ -1,7 +1,177 @@
 {
   "week": "2026-W22",
-  "generatedAt": "2026-05-25 16:25",
-  "keywords": "果酒/新酒饮/低度酒/RTD/微醺经济",
-  "method": "严格限定智能体-简述网站范围，公开信息优先",
-  "report": "docs/reports/2026-W22.html"
+  "generatedAt": "2026-05-25 15:38",
+  "keywords": [
+    "果酒",
+    "新酒饮",
+    "低度酒",
+    "RTD",
+    "微醺经济",
+    "白酒"
+  ],
+  "totalSites": 23,
+  "hitSites": 0,
+  "results": [
+    {
+      "category": "国际权威",
+      "site": "euromonitor.com",
+      "status": "未命中",
+      "evidence": null,
+      "reason": "未检索到关键词相关结果；主页可访问"
+    },
+    {
+      "category": "国际权威",
+      "site": "china.mintel.com",
+      "status": "未命中",
+      "evidence": null,
+      "reason": "未检索到关键词相关结果；主页可访问"
+    },
+    {
+      "category": "国际权威",
+      "site": "nielseniq.cn",
+      "status": "未命中",
+      "evidence": null,
+      "reason": "未检索到关键词相关结果；主页可访问"
+    },
+    {
+      "category": "国际权威",
+      "site": "kantarworldpanel.com",
+      "status": "未命中",
+      "evidence": null,
+      "reason": "未检索到关键词相关结果；主页可访问"
+    },
+    {
+      "category": "国际权威",
+      "site": "cn.kantar.com",
+      "status": "未命中",
+      "evidence": null,
+      "reason": "未检索到关键词相关结果；主页可访问"
+    },
+    {
+      "category": "国内专业",
+      "site": "mktindex.com",
+      "status": "未命中",
+      "evidence": null,
+      "reason": "未检索到关键词相关结果；主页可访问"
+    },
+    {
+      "category": "国内专业",
+      "site": "cir.cn",
+      "status": "未命中",
+      "evidence": null,
+      "reason": "未检索到关键词相关结果；主页可访问"
+    },
+    {
+      "category": "国内专业",
+      "site": "venndata.cn",
+      "status": "未命中",
+      "evidence": null,
+      "reason": "未检索到关键词相关结果；主页可访问"
+    },
+    {
+      "category": "国内专业",
+      "site": "cbndata.com",
+      "status": "未命中",
+      "evidence": null,
+      "reason": "未检索到关键词相关结果；主页可访问"
+    },
+    {
+      "category": "国内专业",
+      "site": "hanghangcha.com",
+      "status": "未命中",
+      "evidence": null,
+      "reason": "未检索到关键词相关结果；主页可访问"
+    },
+    {
+      "category": "低成本资源",
+      "site": "199it.com",
+      "status": "未命中",
+      "evidence": null,
+      "reason": "未检索到关键词相关结果；主页可访问"
+    },
+    {
+      "category": "低成本资源",
+      "site": "mob.com/mobdata/report",
+      "status": "未命中",
+      "evidence": null,
+      "reason": "未检索到关键词相关结果；主页可访问"
+    },
+    {
+      "category": "电商数据",
+      "site": "nint.com",
+      "status": "未命中",
+      "evidence": null,
+      "reason": "未检索到关键词相关结果；主页可访问"
+    },
+    {
+      "category": "电商数据",
+      "site": "zhoupudata.com",
+      "status": "未命中",
+      "evidence": null,
+      "reason": "未检索到关键词相关结果；主页可访问"
+    },
+    {
+      "category": "电商数据",
+      "site": "similarwebcn.com",
+      "status": "未命中",
+      "evidence": null,
+      "reason": "未检索到关键词相关结果；主页可访问"
+    },
+    {
+      "category": "电商数据",
+      "site": "similarweb.com",
+      "status": "未命中",
+      "evidence": null,
+      "reason": "未检索到关键词相关结果；主页可访问"
+    },
+    {
+      "category": "综合聚合",
+      "site": "fxbaogao.com",
+      "status": "未命中",
+      "evidence": null,
+      "reason": "未检索到关键词相关结果；主页可访问"
+    },
+    {
+      "category": "综合聚合",
+      "site": "sgpjbg.com",
+      "status": "未命中",
+      "evidence": null,
+      "reason": "未检索到关键词相关结果；主页可访问"
+    },
+    {
+      "category": "综合聚合",
+      "site": "iresearch.com.cn",
+      "status": "未命中",
+      "evidence": null,
+      "reason": "未检索到关键词相关结果；主页可访问"
+    },
+    {
+      "category": "综合聚合",
+      "site": "leadleo.com",
+      "status": "未命中",
+      "evidence": null,
+      "reason": "未检索到关键词相关结果；主页可访问"
+    },
+    {
+      "category": "财务数据",
+      "site": "eastmoney.com",
+      "status": "未命中",
+      "evidence": null,
+      "reason": "未检索到关键词相关结果；主页可访问"
+    },
+    {
+      "category": "财务数据",
+      "site": "10jqka.com.cn",
+      "status": "未命中",
+      "evidence": null,
+      "reason": "未检索到关键词相关结果；主页可访问"
+    },
+    {
+      "category": "财务数据",
+      "site": "wind.com.cn",
+      "status": "未命中",
+      "evidence": null,
+      "reason": "未检索到关键词相关结果；主页可访问"
+    }
+  ]
 }
