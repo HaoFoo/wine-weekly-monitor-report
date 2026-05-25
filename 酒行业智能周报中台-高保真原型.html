@@ -1,0 +1,422 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>酒行业智能周报中台 - 高保真原型</title>
+  <style>
+    :root{
+      --bg:#eef4ff;
+      --panel:#ffffff;
+      --ink:#0f1f3d;
+      --muted:#5f7196;
+      --line:#d9e5ff;
+      --brand:#0b5fff;
+      --brand-2:#00a3ff;
+      --ok:#16a34a;
+      --warn:#f59e0b;
+      --risk:#ef4444;
+      --shadow:0 10px 30px rgba(23,71,191,.08);
+      --radius:14px;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;
+      color:var(--ink);
+      background:
+        radial-gradient(circle at 20% 0%, rgba(11,95,255,.12), transparent 35%),
+        radial-gradient(circle at 85% 10%, rgba(0,163,255,.1), transparent 30%),
+        var(--bg);
+    }
+    .topbar{
+      position:sticky;top:0;z-index:30;
+      backdrop-filter:blur(10px);
+      background:rgba(255,255,255,.86);
+      border-bottom:1px solid var(--line);
+    }
+    .topbar-inner{max-width:1800px;margin:0 auto;padding:14px 24px;display:flex;align-items:center;gap:18px}
+    .logo{font-weight:800;color:var(--brand);font-size:20px}
+    .nav{display:flex;gap:8px;flex-wrap:wrap}
+    .nav a{padding:8px 12px;border-radius:10px;color:#23406f;text-decoration:none;font-size:14px}
+    .nav a.active,.nav a:hover{background:#edf3ff;color:var(--brand)}
+    .nav a{transition:all .2s ease}
+    .container{max-width:1840px;margin:18px auto 40px;padding:0 18px}
+    .board{display:grid;grid-template-columns:1fr 1fr 1fr;gap:16px;align-items:start}
+    .screen{background:var(--panel);border:1px solid var(--line);border-radius:18px;box-shadow:var(--shadow);overflow:hidden;min-height:930px}
+    .screen.active{outline:2px solid rgba(11,95,255,.25)}
+    .screen-head{padding:16px 18px;border-bottom:1px solid var(--line);background:linear-gradient(110deg,#fff,#f4f8ff)}
+    .screen-head h2{margin:0 0 6px;font-size:18px}
+    .screen-head p{margin:0;color:var(--muted);font-size:12px}
+    .section{padding:14px 16px;border-bottom:1px solid #edf2ff}
+    .row{display:flex;gap:10px;flex-wrap:wrap}
+    .chip{font-size:12px;padding:6px 10px;border-radius:999px;background:#edf4ff;color:#2854a2}
+    .input,.select,.btn{height:34px;border:1px solid var(--line);border-radius:10px;padding:0 10px;background:#fff;color:#25406d;font-size:13px}
+    .btn{background:linear-gradient(90deg,var(--brand),var(--brand-2));color:#fff;border:none;font-weight:600;cursor:pointer}
+    .kpi{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+    .kpi-card{background:#f8fbff;border:1px solid #e2ecff;border-radius:12px;padding:10px}
+    .kpi-card .t{font-size:12px;color:var(--muted)}
+    .kpi-card .v{font-size:24px;font-weight:800;margin-top:4px}
+    .chart{height:180px;border:1px dashed #c8d8ff;border-radius:12px;background:linear-gradient(180deg,#f9fbff,#f1f6ff);padding:10px;font-size:12px;color:#4f6796}
+    .list{display:grid;gap:8px}
+    .item{border:1px solid #e4ecff;background:#fbfdff;border-radius:10px;padding:9px 10px;font-size:12px}
+    .tag{display:inline-block;padding:2px 8px;border-radius:999px;font-size:11px;font-weight:700}
+    .ok{background:#e8f9ee;color:#17803f}.warn{background:#fff5e8;color:#ad6800}.risk{background:#ffe9e9;color:#b42318}
+    table{width:100%;border-collapse:collapse;font-size:12px}
+    th,td{border-bottom:1px solid #ebf1ff;padding:8px 6px;text-align:left;vertical-align:top}
+    th{background:#f5f9ff;color:#204170}
+    .selectable tbody tr{cursor:pointer}
+    .selectable tbody tr.active{background:#eaf2ff}
+    .grid2{display:grid;grid-template-columns:1.2fr 1fr;gap:10px}
+    .panel{border:1px solid #e5edff;border-radius:12px;padding:10px;background:#fbfdff}
+    .tiny{font-size:11px;color:var(--muted)}
+    .editor{height:220px;border:1px solid #dbe7ff;border-radius:10px;background:#fff;padding:10px;font-size:13px;line-height:1.7;overflow:auto}
+    .insight-item{cursor:pointer}
+    .insight-detail{display:none}
+    .insight-item.open .insight-detail{display:block;margin-top:6px}
+    .toast{
+      position:fixed;right:20px;bottom:24px;z-index:40;
+      background:#102b5f;color:#fff;padding:10px 14px;border-radius:10px;
+      box-shadow:0 8px 20px rgba(0,0,0,.2);font-size:13px;opacity:0;transform:translateY(8px);
+      transition:all .2s ease;pointer-events:none
+    }
+    .toast.show{opacity:1;transform:translateY(0)}
+    .footer-note{max-width:1840px;margin:8px auto 32px;padding:0 20px;color:#5a7099;font-size:12px}
+    .report-modal{
+      position:fixed;inset:0;background:rgba(10,26,58,.45);z-index:60;
+      display:none;align-items:center;justify-content:center;padding:24px;
+    }
+    .report-modal.show{display:flex}
+    .report-card{
+      width:min(1180px,96vw);max-height:90vh;overflow:auto;background:#fff;border-radius:16px;
+      box-shadow:0 18px 48px rgba(0,0,0,.22);border:1px solid #d9e5ff;
+    }
+    .report-head{
+      position:sticky;top:0;background:linear-gradient(90deg,#f8fbff,#eef5ff);padding:14px 18px;
+      border-bottom:1px solid #dfebff;display:flex;align-items:center;justify-content:space-between;gap:12px;
+    }
+    .close-btn{
+      height:32px;padding:0 12px;border-radius:9px;border:1px solid #bdd3ff;background:#fff;cursor:pointer;
+      color:#23406f;font-size:13px
+    }
+    .report-body{padding:14px 18px 18px}
+    .report-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+    .report-only{background:#f9fbff;border:1px solid #e2ebff;border-radius:12px;padding:10px}
+    @media (max-width:1400px){.board{grid-template-columns:1fr}}
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <div class="logo">酒行业智能周报中台</div>
+      <nav class="nav">
+        <a class="active" href="#">总览驾驶舱</a>
+        <a href="#">数据采集</a>
+        <a href="#">AI分析与周报</a>
+        <a href="#">来源库</a>
+        <a href="#">预警中心</a>
+        <a href="#">设置</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="board">
+      <section class="screen active" id="screen-dashboard">
+        <div class="screen-head">
+          <h2>总览驾驶舱</h2>
+          <p>监控周期：2026-W21（05/18 - 05/24）</p>
+        </div>
+        <div class="section">
+          <div class="row">
+            <select class="select" id="weekSelect"><option>周次：2026-W21</option><option>周次：2026-W20</option></select>
+            <select class="select" id="keywordSelect"><option>关键词包：果酒/低度酒/RTD/白酒</option><option>关键词包：微醺经济/硬苏打/果味酒</option></select>
+            <select class="select" id="sourceSelect"><option>站点分组：全部</option><option>站点分组：电商数据</option><option>站点分组：专业研报</option></select>
+            <input class="input" id="updateTime" value="更新时间：今天 14:40" />
+            <button class="btn" id="openWeeklyReport">查看该周周报</button>
+          </div>
+        </div>
+        <div class="section">
+          <div class="kpi">
+            <div class="kpi-card"><div class="t">本周采集条数</div><div class="v">428</div></div>
+            <div class="kpi-card"><div class="t">有效信号率</div><div class="v">63%</div></div>
+            <div class="kpi-card"><div class="t">高风险舆情数</div><div class="v" style="color:var(--risk)">7</div></div>
+            <div class="kpi-card"><div class="t">新增报告数</div><div class="v">54</div></div>
+            <div class="kpi-card"><div class="t">自动摘要完成率</div><div class="v">92%</div></div>
+            <div class="kpi-card"><div class="t">站点命中数</div><div class="v">19</div></div>
+          </div>
+        </div>
+        <div class="section grid2">
+          <div class="chart">近12周四维热度趋势图（增长/竞争/渠道/消费者行为）<br><br>Y轴：信号热度指数（0-100）<br>X轴：W10~W21</div>
+          <div class="chart">渠道分布占比图<br><br>电商 26% / 媒体 18% / 研报 31% / 政策 9% / 社媒 16%</div>
+        </div>
+        <div class="section">
+          <div class="panel">
+            <b>预警流（实时）</b>
+            <div class="list" style="margin-top:8px">
+              <div class="item"><span class="tag risk">高风险</span> 10:22 某头部品牌在华东渠道下调出厂价 8%</div>
+              <div class="item"><span class="tag warn">中风险</span> 11:08 平台发布酒类直播新规范，影响达人投放效率</div>
+              <div class="item"><span class="tag ok">提示</span> 13:40 某新锐低度酒品牌上新“晚餐佐饮”系列</div>
+            </div>
+          </div>
+        </div>
+        <div class="section">
+          <div class="panel">
+            <b>本周核心洞察（点击展开）</b>
+            <ul>
+              <li class="insight-item">即饮渠道增速快于传统商超，夜间时段增长最明显。<div class="insight-detail tiny">证据：近8周渠道订单数据，夜间时段同比增长显著。</div></li>
+              <li class="insight-item">低度果酒与“佐餐场景”绑定增强，女性客群复购上升。<div class="insight-detail tiny">证据：平台人群画像与复购追踪显示女性客群持续增长。</div></li>
+              <li class="insight-item">价格带向 12-18 元收敛，促销频率提升带来毛利压力。<div class="insight-detail tiny">证据：竞品价格监测与促销频率周环比抬升。</div></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="screen" id="screen-collect">
+        <div class="screen-head">
+          <h2>数据采集配置与入库</h2>
+          <p>目标：自动采集 + 去重 + 结构化入库</p>
+        </div>
+        <div class="section">
+          <div class="row">
+            <button class="btn action-btn" data-msg="已新建采集任务（草稿）">新建任务</button>
+            <button class="btn action-btn" data-msg="采集任务已启动，预计 2 分钟内完成">立即运行</button>
+            <button class="btn action-btn" data-msg="站点清单导入成功">导入站点</button>
+            <button class="btn action-btn" data-msg="已导出本周采集清单">导出清单</button>
+          </div>
+        </div>
+        <div class="section panel">
+          <b>采集任务配置</b>
+          <table style="margin-top:8px">
+            <thead><tr><th>来源分组</th><th>开关</th><th>频率</th><th>优先级</th><th>去重规则</th></tr></thead>
+            <tbody>
+              <tr><td>国际权威平台</td><td>开启</td><td>每周</td><td>P1</td><td>标题+来源+日期</td></tr>
+              <tr><td>国内专业平台</td><td>开启</td><td>每日</td><td>P1</td><td>URL哈希+标题相似度</td></tr>
+              <tr><td>电商数据平台</td><td>开启</td><td>每日</td><td>P0</td><td>SKU+时间窗口</td></tr>
+              <tr><td>综合报告站</td><td>开启</td><td>每日</td><td>P2</td><td>标题+内容摘要</td></tr>
+              <tr><td>财务数据站</td><td>开启</td><td>每周</td><td>P1</td><td>公告ID</td></tr>
+            </tbody>
+          </table>
+          <div class="tiny" style="margin-top:6px">关键词策略：核心词（果酒、低度酒、RTD、微醺经济）｜排除词（招聘、软文、活动预告）｜逻辑（核心词 OR 扩展词）AND 非排除词</div>
+        </div>
+        <div class="section panel">
+          <b>采集结果工作台</b>
+          <table style="margin-top:8px" class="selectable" id="resultTable">
+            <thead><tr><th>标题</th><th>来源</th><th>发布时间</th><th>分类维度</th><th>信噪评分</th><th>状态</th></tr></thead>
+            <tbody>
+              <tr data-link="https://www.cbndata.com/report/xxxxx" data-summary="低度酒在即时零售渠道持续高增，夜场和晚餐场景显著拉动。" data-kpi="近 8 周即时零售订单同比 +38%，其中 12-18 元价格带贡献最大。" data-evidence="来源页第 3 节“渠道与价格带分析”。"><td>2026低度酒渠道结构报告</td><td>cbndata</td><td>2026-05-24</td><td>渠道</td><td>87</td><td><span class="tag ok">已命中</span></td></tr>
+              <tr data-link="https://www.nint.com/report/abc" data-summary="头部品牌通过组合促销抢占便利店和即时零售场景。" data-kpi="重点城市便利店渠道促销深度提升 11% 。" data-evidence="来源页第 2 节“竞争策略”。"><td>头部品牌促销节奏变化观察</td><td>nint</td><td>2026-05-23</td><td>竞争</td><td>82</td><td><span class="tag ok">已命中</span></td></tr>
+              <tr data-link="https://policy.example.com/doc" data-summary="政策条款对直播售酒内容合规提出新要求。" data-kpi="新增 3 项审核要求，影响内容投放时效。" data-evidence="政策公告“经营规范更新”。"><td>某政策解读稿</td><td>聚合站</td><td>2026-05-23</td><td>政策</td><td>41</td><td><span class="tag warn">待复核</span></td></tr>
+              <tr data-link="https://media.example.com/pr" data-summary="该稿件信息密度低，缺乏核心数据依据。" data-kpi="未提供可复核数据。信噪比过低。" data-evidence="正文以活动宣传为主。"><td>行业PR新闻稿</td><td>媒体站</td><td>2026-05-22</td><td>其他</td><td>22</td><td><span class="tag risk">剔除</span></td></tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="section panel">
+          <b>单条信息详情（右侧抽屉）</b>
+          <p class="tiny" id="detailLink">原文链接：https://www.cbndata.com/report/xxxxx</p>
+          <p id="detailSummary"><b>摘要：</b>低度酒在即时零售渠道持续高增，夜场和晚餐场景显著拉动。</p>
+          <p id="detailKpi"><b>关键数据句：</b>近 8 周即时零售订单同比 +38%，其中 12-18 元价格带贡献最大。</p>
+          <p id="detailEvidence"><b>证据摘录：</b>来源页第 3 节“渠道与价格带分析”。</p>
+        </div>
+      </section>
+
+      <section class="screen" id="screen-ai">
+        <div class="screen-head">
+          <h2>AI分析与周报编辑</h2>
+          <p>报告：酒行业市场监控周报 2026-W21 ｜ 状态：待审核</p>
+        </div>
+        <div class="section panel">
+          <b>AI结构化分析结果</b>
+          <div class="list" style="margin-top:8px">
+            <div class="item"><b>核心观点提取</b>：果酒与RTD在“佐餐+夜间”双场景增长。<br><span class="tiny">证据：nint/NIQ 报告 ｜ 可信度 0.91</span></div>
+            <div class="item"><b>竞争与格局</b>：头部品牌以价格带下探争夺便利店动销，区域品牌跟进促销。<br><span class="tiny">证据：券商周报+电商监测 ｜ 可信度 0.88</span></div>
+            <div class="item"><b>机会点</b>：优先布局 12-18 元佐餐轻饮，联动即时零售夜间投放。<br><span class="tiny">证据：渠道渗透+客单趋势 ｜ 可信度 0.84</span></div>
+            <div class="item"><b>风险预警</b>：价格战导致毛利压缩，需设分渠道 ROI 阈值。<br><span class="tiny">证据：近4周促销频率抬升 ｜ 可信度 0.89</span></div>
+            <div class="item"><b>来源索引</b>：自动生成 27 条可追溯来源链接。</div>
+          </div>
+        </div>
+        <div class="section grid2">
+          <div class="panel">
+            <b>周报大纲</b>
+            <ul>
+              <li>封面</li><li>摘要</li><li>增长维度</li><li>竞争维度</li><li>渠道维度</li><li>消费者行为</li><li>建议</li><li>附录</li>
+            </ul>
+          </div>
+          <div class="panel">
+            <b>发布面板</b>
+            <div class="list" style="margin-top:8px">
+              <div class="item">网页发布：已开启</div>
+              <div class="item">分享链接：/report/2026-W21</div>
+              <div class="item">版本记录：V1.3（今日 14:30）</div>
+            </div>
+            <div class="row" style="margin-top:8px">
+              <button class="btn action-btn" data-msg="草稿已保存到 V1.4">保存草稿</button>
+              <button class="btn action-btn" data-msg="已提交审核，通知已发送给分析负责人">提交审核</button>
+            </div>
+          </div>
+        </div>
+        <div class="section panel">
+          <b>周报编辑器（所见即所得）</b>
+          <div class="editor" contenteditable="true">
+            <h3>本周摘要</h3>
+            <p>本周酒行业有效信号共 269 条，其中增长相关占比 42%，竞争相关占比 31%。即时零售和便利店场景成为低度酒核心增量来源。</p>
+            <h3>策略建议</h3>
+            <p>建议优先验证“佐餐轻饮”产品组合，按渠道建立利润红线，并把竞品调价预警接入周度经营复盘机制。</p>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <div class="footer-note">原型说明：此页面为高保真静态原型，聚焦“每周数据收集-分析-发布”流程，可继续细化为可交互版本。</div>
+  <div class="report-modal" id="reportModal">
+    <div class="report-card">
+      <div class="report-head">
+        <div>
+          <b id="reportTitle">酒行业市场监控周报｜2026-W21</b>
+          <div class="tiny" id="reportSub">关键词包：果酒/低度酒/RTD/白酒 ｜ 生成时间：2026-05-25 15:20</div>
+        </div>
+        <button class="close-btn" id="closeReport">关闭</button>
+      </div>
+      <div class="report-body">
+        <div class="report-only">
+          <b>一、执行摘要</b>
+          <p>本周有效信号 269 条。增长相关占比 42%，竞争相关占比 31%。夜间即时零售与佐餐场景是主要增量来源。</p>
+        </div>
+        <div class="report-grid" style="margin-top:10px">
+          <div class="report-only">
+            <b>二、核心观点（现象 + 商业本质）</b>
+            <ul>
+              <li>现象：低度酒夜间订单同比提升。商业本质：消费场景从“聚会”向“日常佐餐”迁移。</li>
+              <li>现象：头部品牌下探价格带。商业本质：规模优先策略加速渠道挤压。</li>
+              <li>现象：女性客群复购提升。商业本质：口味细分和轻负担诉求持续驱动增长。</li>
+            </ul>
+          </div>
+          <div class="report-only">
+            <b>三、竞争与格局</b>
+            <ul>
+              <li>主要玩家：头部品牌以促销和新品组合抢占便利店与即时零售。</li>
+              <li>新势力：区域新锐品牌加速切入 12-18 元价格带。</li>
+              <li>集中度：头部与腰部分化加剧，渠道议价权上移。</li>
+            </ul>
+          </div>
+          <div class="report-only">
+            <b>四、机会点</b>
+            <ul>
+              <li>围绕“晚餐 + 轻饮”设计 SKU 组合。</li>
+              <li>优先投放即时零售夜间时段。</li>
+              <li>建设以复购率为核心的周度实验机制。</li>
+            </ul>
+          </div>
+          <div class="report-only">
+            <b>五、风险预警</b>
+            <ul>
+              <li>价格战导致毛利压缩风险上升。</li>
+              <li>平台规则变动影响投放效率。</li>
+              <li>建议设置分渠道 ROI 红线与预警阈值。</li>
+            </ul>
+          </div>
+        </div>
+        <div class="report-only" style="margin-top:10px">
+          <b>六、来源索引（节选）</b>
+          <table style="margin-top:8px">
+            <thead><tr><th>标题</th><th>来源</th><th>发布时间</th><th>链接</th></tr></thead>
+            <tbody>
+              <tr><td>2026低度酒渠道结构报告</td><td>cbndata</td><td>2026-05-24</td><td>/source/001</td></tr>
+              <tr><td>头部品牌促销节奏变化观察</td><td>nint</td><td>2026-05-23</td><td>/source/002</td></tr>
+              <tr><td>平台政策更新解读</td><td>行业政策站</td><td>2026-05-23</td><td>/source/003</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="toast" id="toast"></div>
+  <script>
+    const navLinks = document.querySelectorAll(".nav a");
+    const screens = {
+      "总览驾驶舱": document.getElementById("screen-dashboard"),
+      "数据采集": document.getElementById("screen-collect"),
+      "AI分析与周报": document.getElementById("screen-ai")
+    };
+
+    function setActiveScreen(label) {
+      Object.values(screens).forEach((el) => el.classList.remove("active"));
+      if (screens[label]) {
+        screens[label].classList.add("active");
+        screens[label].scrollIntoView({ behavior: "smooth", block: "start" });
+      }
+    }
+
+    navLinks.forEach((link) => {
+      link.addEventListener("click", (e) => {
+        e.preventDefault();
+        navLinks.forEach((x) => x.classList.remove("active"));
+        link.classList.add("active");
+        setActiveScreen(link.textContent.trim());
+      });
+    });
+
+    const toast = document.getElementById("toast");
+    let toastTimer = null;
+    function showToast(msg) {
+      toast.textContent = msg;
+      toast.classList.add("show");
+      clearTimeout(toastTimer);
+      toastTimer = setTimeout(() => toast.classList.remove("show"), 1600);
+    }
+
+    document.querySelectorAll(".action-btn").forEach((btn) => {
+      btn.addEventListener("click", () => showToast(btn.dataset.msg || "操作成功"));
+    });
+
+    document.querySelectorAll(".insight-item").forEach((item) => {
+      item.addEventListener("click", () => item.classList.toggle("open"));
+    });
+
+    const rows = document.querySelectorAll("#resultTable tbody tr");
+    const detailLink = document.getElementById("detailLink");
+    const detailSummary = document.getElementById("detailSummary");
+    const detailKpi = document.getElementById("detailKpi");
+    const detailEvidence = document.getElementById("detailEvidence");
+    rows.forEach((row) => {
+      row.addEventListener("click", () => {
+        rows.forEach((x) => x.classList.remove("active"));
+        row.classList.add("active");
+        detailLink.textContent = "原文链接：" + row.dataset.link;
+        detailSummary.innerHTML = "<b>摘要：</b>" + row.dataset.summary;
+        detailKpi.innerHTML = "<b>关键数据句：</b>" + row.dataset.kpi;
+        detailEvidence.innerHTML = "<b>证据摘录：</b>" + row.dataset.evidence;
+      });
+    });
+
+    const weekSelect = document.getElementById("weekSelect");
+    const keywordSelect = document.getElementById("keywordSelect");
+    const sourceSelect = document.getElementById("sourceSelect");
+    const updateTime = document.getElementById("updateTime");
+    [weekSelect, keywordSelect, sourceSelect].forEach((sel) => {
+      sel.addEventListener("change", () => {
+        updateTime.value = "更新时间：已按筛选刷新（" + new Date().toLocaleTimeString("zh-CN", { hour12: false }) + "）";
+        showToast("筛选条件已应用，数据已刷新");
+      });
+    });
+
+    const reportModal = document.getElementById("reportModal");
+    const openWeeklyReport = document.getElementById("openWeeklyReport");
+    const closeReport = document.getElementById("closeReport");
+    const reportTitle = document.getElementById("reportTitle");
+    const reportSub = document.getElementById("reportSub");
+    openWeeklyReport.addEventListener("click", () => {
+      const week = weekSelect.options[weekSelect.selectedIndex].text.replace("周次：", "");
+      const keyword = keywordSelect.options[keywordSelect.selectedIndex].text.replace("关键词包：", "");
+      reportTitle.textContent = "酒行业市场监控周报｜" + week;
+      reportSub.textContent = "关键词包：" + keyword + " ｜ 生成时间：" + new Date().toLocaleString("zh-CN", { hour12: false });
+      reportModal.classList.add("show");
+    });
+    closeReport.addEventListener("click", () => reportModal.classList.remove("show"));
+    reportModal.addEventListener("click", (e) => {
+      if (e.target === reportModal) reportModal.classList.remove("show");
+    });
+  </script>
+</body>
+</html>
