@@ -1,4 +1,20 @@
-<!doctype html><html lang="zh-CN"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"/><meta http-equiv="Pragma" content="no-cache"/><meta http-equiv="Expires" content="0"/><title>酒行业周报中心</title>
+<!doctype html><html lang="zh-CN"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><title>酒行业周报中心</title>
 <style>body{font-family:"PingFang SC","Microsoft YaHei",sans-serif;margin:0;background:#f3f7ff;color:#102346}.wrap{max-width:1000px;margin:28px auto;padding:0 16px}.head{background:#fff;border:1px solid #dbe6ff;border-radius:14px;padding:18px}h1{margin:0 0 8px;font-size:28px;color:#0b5fff}.muted{color:#5c7099;font-size:14px}.card{margin-top:12px;background:#fff;border:1px solid #dbe6ff;border-radius:14px;padding:14px}.row{display:flex;gap:8px;flex-wrap:wrap;align-items:center}select,button{height:34px;border-radius:8px;border:1px solid #cddcff;padding:0 10px}button{background:linear-gradient(90deg,#0b5fff,#00a3ff);color:#fff;border:none;cursor:pointer}table{margin-top:10px;width:100%;border-collapse:collapse}th,td{padding:10px;border-bottom:1px solid #ecf2ff;text-align:left;font-size:14px}th{background:#f7faff;color:#1a3f79}a{color:#0b5fff;text-decoration:none}</style>
-</head><body><div class="wrap"><div class="head"><h1>酒行业市场监控周报中心</h1><div class="muted">固定最新入口：<a href="./latest.html?v=2026w23">查看最新周报</a></div></div><div class="card"><div class="row"><label for="week">选择周次：</label><select id="week"></select><button id="viewBtn">查看该周周报</button></div><table><thead><tr><th>周次</th><th>生成时间</th><th>报告链接</th></tr></thead><tbody id="listBody"></tbody></table></div></div>
-<script>const reports=[{"week": "2026-W23", "generatedAt": "2026-05-26 09:12", "file": "./reports/2026-W23.html?v=2026w23"}, {"week": "2026-W22", "generatedAt": "2026-05-25 16:30", "file": "./reports/2026-W22.html?v=2026w22"}, {"week": "2026-W21", "generatedAt": "2026-05-25 16:30", "file": "./reports/2026-W21.html?v=2026w21"}];const weekSelect=document.getElementById("week");const body=document.getElementById("listBody");reports.forEach((r)=>{const op=document.createElement("option");op.value=r.file;op.textContent=r.week;weekSelect.appendChild(op);const tr=document.createElement("tr");tr.innerHTML=`<td>${r.week}</td><td>${r.generatedAt}</td><td><a href="${r.file}">打开周报</a></td>`;body.appendChild(tr);});document.getElementById("viewBtn").addEventListener("click",()=>{const url=weekSelect.value;if(url)window.location.href=url;});</script></body></html>
+</head><body><div class="wrap"><div class="head"><h1>酒行业市场监控周报中心</h1><div class="muted">固定最新入口：<a href="./latest.html">查看最新周报</a></div></div><div class="card"><div class="row"><label for="week">选择周次：</label><select id="week"></select><button id="viewBtn">查看该周周报</button></div><table><thead><tr><th>周次</th><th>生成时间</th><th>报告链接</th></tr></thead><tbody id="listBody"></tbody></table></div></div>
+<script>const reports=[
+  {
+    "week": "2026-W23",
+    "generatedAt": "2026-05-26 09:11",
+    "file": "./reports/2026-W23.html"
+  },
+  {
+    "week": "2026-W22",
+    "generatedAt": "2026-05-27 14:14",
+    "file": "./reports/2026-W22.html"
+  },
+  {
+    "week": "2026-W21",
+    "generatedAt": "2026-05-25 15:40",
+    "file": "./reports/2026-W21.html"
+  }
+];const weekSelect=document.getElementById("week");const body=document.getElementById("listBody");reports.forEach((r)=>{const op=document.createElement("option");op.value=r.file;op.textContent=r.week;weekSelect.appendChild(op);const tr=document.createElement("tr");tr.innerHTML=`<td>${r.week}</td><td>${r.generatedAt}</td><td><a href="${r.file}">打开周报</a></td>`;body.appendChild(tr);});document.getElementById("viewBtn").addEventListener("click",()=>{const url=weekSelect.value;if(url)window.location.href=url;});</script></body></html>
