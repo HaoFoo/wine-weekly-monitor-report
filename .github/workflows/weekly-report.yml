@@ -21,6 +21,8 @@ jobs:
           python-version: '3.11'
 
       - name: Generate weekly report
+        env:
+          SERPAPI_API_KEY: ${{ secrets.SERPAPI_API_KEY }}
         run: python scripts/auto_generate_report.py
 
       - name: Commit and push if changed

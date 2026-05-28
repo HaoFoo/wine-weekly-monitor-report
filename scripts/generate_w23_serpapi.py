@@ -2,12 +2,13 @@
 from __future__ import annotations
 import datetime as dt
 import json
+import os
 import urllib.parse
 import urllib.request
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
-API_KEY = "08bed8e007dead54a9642cc6c8c88ae719f05a6534848f3854bc766686453a49"
+API_KEY = os.environ.get("SERPAPI_API_KEY", "")
 TZ = ZoneInfo("Asia/Shanghai")
 WEEK = "2026-W23"
 PERIOD = "2026-05-26 至 2026-06-01"
@@ -46,6 +47,9 @@ DATA = BASE / "data" / "reports"
 
 
 def serp_search(query: str):
+    if not API_KEY:
+        raise RuntimeError("SERPAPI_API_KEY is not configured")
+
     params = {
         "engine": "google",
         "q": query,

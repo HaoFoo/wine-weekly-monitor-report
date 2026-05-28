@@ -4,6 +4,8 @@ from __future__ import annotations
 import datetime as dt
 import html
 import json
+import os
+import urllib.parse
 import urllib.request
 from pathlib import Path
 from zoneinfo import ZoneInfo
@@ -15,6 +17,7 @@ DATA_DIR = BASE / "data" / "reports"
 
 TZ = ZoneInfo("Asia/Shanghai")
 KEYWORDS = ["果酒", "新酒饮", "低度酒", "RTD", "微醺经济", "白酒"]
+SERPAPI_API_KEY = os.environ.get("SERPAPI_API_KEY", "")
 
 SITES = [
     ("国际权威", "euromonitor.com", "https://www.euromonitor.com/"),
@@ -93,7 +96,41 @@ def fetch(url: str, timeout: int = 15) -> tuple[int, str]:
         return resp.status, body
 
 
+def serpapi_search(domain: str) -> tuple[bool, str | None, str]:
+    query = f"site:{domain} ({' OR '.join(KEYWORDS)})"
+    params = {
+        "engine": "google",
+        "q": query,
+        "api_key": SERPAPI_API_KEY,
+        "hl": "zh-cn",
+        "gl": "cn",
+        "num": 10,
+    }
+    url = "https://serpapi.com/search.json?" + urllib.parse.urlencode(params)
+    req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 CodexWeeklyBot/1.0"})
+    with urllib.request.urlopen(req, timeout=45) as resp:
+        data = json.loads(resp.read().decode("utf-8", errors="ignore"))
+
+    for item in data.get("organic_results", []):
+        link = item.get("link", "")
+        title = item.get("title", "")
+        snippet = item.get("snippet", "")
+        if domain.split("/")[0] in link:
+            reason_parts = [title or "SerpApi 命中"]
+            if snippet:
+                reason_parts.append(snippet[:180])
+            return True, link, "｜".join(reason_parts)
+
+    return False, None, "SerpApi 未检索到关键词相关结果"
+
+
 def search_site(domain: str, homepage: str) -> tuple[bool, str | None, str]:
+    if SERPAPI_API_KEY:
+        try:
+            return serpapi_search(domain)
+        except Exception as e:
+            return False, None, f"SerpApi 请求失败：{e.__class__.__name__}"
+
     # Deterministic hit policy: if curated evidence is configured, mark as hit
     # and keep the source link for audit traceability.
     curated = EVIDENCE_CANDIDATES.get(domain, [])
