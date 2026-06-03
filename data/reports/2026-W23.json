@@ -1,190 +1,177 @@
 {
   "week": "2026-W23",
-  "generatedAt": "2026-05-26 09:11",
+  "generatedAt": "2026-06-03 14:47",
+  "keywords": [
+    "果酒",
+    "新酒饮",
+    "低度酒",
+    "RTD",
+    "微醺经济",
+    "白酒"
+  ],
+  "totalSites": 23,
+  "hitSites": 18,
   "results": [
     {
       "category": "国际权威",
       "site": "euromonitor.com",
       "status": "命中",
-      "reason": "Overview: Understand the latest market trends and future growth opportunities for the RTD Coffee industry in Kazakhstan with research from Euromonitor ...",
       "evidence": "https://www.euromonitor.com/rtd-coffee-in-kazakhstan/report",
-      "title": "RTD Coffee in Kazakhstan | Market Research Report"
+      "reason": "RTD Coffee in Kazakhstan | Market Research Report｜Overview: Understand the latest market trends and future growth opportunities for the RTD Coffee industry in Kazakhstan with research from Euromonitor ..."
     },
     {
       "category": "国际权威",
       "site": "china.mintel.com",
       "status": "命中",
-      "reason": "除瓶装水之外，农夫山泉的产品组合中还有很多不同的类型，包括功能性饮料、果汁、茶饮料和植物蛋白饮品等，比如椰子酸奶。其最新发布的一款产品是碳酸咖啡饮料——咖啡和碳酸 ...",
       "evidence": "https://china.mintel.com/insights/food-and-drink/nongfu-shanquan-shangshi/",
-      "title": "农夫山泉在香港上市，国内RTD饮料需求升温 - 英敏特- Mintel"
+      "reason": "农夫山泉在香港上市，国内RTD饮料需求升温 - 英敏特- Mintel｜除瓶装水之外，农夫山泉的产品组合中还有很多不同的类型，包括功能性饮料、果汁、茶饮料和植物蛋白饮品等，比如椰子酸奶。其最新发布的一款产品是碳酸咖啡饮料——咖啡和碳酸 ..."
     },
     {
       "category": "国际权威",
       "site": "nielseniq.cn",
       "status": "命中",
-      "reason": "聚焦中国酒类市场（本篇酒类不包含啤酒、白酒，仅涵盖葡萄酒，白兰地，威士忌，伏特加四大品类），酒类线上渠道发展一路高歌猛进，传统电商、内容电商所代表的线上 ...",
       "evidence": "https://nielseniq.cn/global/zh/insights/report/2025/niq-2024-china-liquor-report/",
-      "title": "2024 中国酒水市场报告- nielseniq-cn"
+      "reason": "2024 中国酒水市场报告 - 便利店趋势洞察｜聚焦中国酒类市场（本篇酒类不包含啤酒、白酒，仅涵盖葡萄酒，白兰地，威士忌，伏特加四大品类），酒类线上渠道发展一路高歌猛进，传统电商、内容电商所代表的线上 ..."
     },
     {
       "category": "国际权威",
       "site": "kantarworldpanel.com",
       "status": "命中",
-      "reason": "作为最传统的礼赠品类，中式白酒在礼赠消费中占比位居第一。在年轻家庭的2023年春节期间购买品类中，白酒的销额同比增速也达到了13.7%。 此外，随着 ...",
       "evidence": "https://www.kantarworldpanel.com/cn/news/trends-of-CNY-period-2023",
-      "title": "2024春节消费缺一不可的三要素"
+      "reason": "2024春节消费缺一不可的三要素｜作为最传统的礼赠品类，中式白酒在礼赠消费中占比位居第一。在年轻家庭的2023年春节期间购买品类中，白酒的销额同比增速也达到了13.7%。 此外，随着 ..."
     },
     {
       "category": "国际权威",
       "site": "cn.kantar.com",
       "status": "未命中",
-      "reason": "未检索到关键词相关结果",
-      "evidence": "",
-      "title": ""
+      "evidence": null,
+      "reason": "SerpApi 未检索到关键词相关结果"
     },
     {
       "category": "国内专业",
       "site": "mktindex.com",
       "status": "命中",
-      "reason": "在C端和社交媒体上，低度酒被烙上了年轻人的标签。在小红书上搜索果酒，有8万+篇笔记；搜索女生酒，有10万+篇笔记；搜索微醺，有23万+篇笔记，其中不乏各种新锐品牌的测评分享。",
       "evidence": "https://www.mktindex.com/research/notebook/guojiu_0713_copy1",
-      "title": "果酒，是年轻人的下一个嗨点吗？"
+      "reason": "果酒，是年轻人的下一个嗨点吗？｜在C端和社交媒体上，低度酒被烙上了年轻人的标签。在小红书上搜索果酒，有8万+篇笔记；搜索女生酒，有10万+篇笔记；搜索微醺，有23万+篇笔记，其中不乏各种新锐品牌的测评分享。"
     },
     {
       "category": "国内专业",
       "site": "cir.cn",
       "status": "命中",
-      "reason": "白酒是中国的传统酒类，近年来在国内外市场上保持着稳健的增长。国内消费市场对高品质、高价位白酒的需求持续上升，而国际市场对白酒文化的好奇和尝试也推动了出口量的 ...",
-      "evidence": "https://www.cir.cn/R_ShiPinYinLiao/53/BaiJiuDeFaZhanQianJing.html",
-      "title": "2025年中国白酒行业发展调研与市场前景分析报告"
+      "evidence": "https://pdfs.cir.cn/pdf.ashx?id=3095668",
+      "reason": "2026-2032年中国低度白酒行业市场调研与发展 ... - 调研报告PDF文档｜低度白酒是中国酒类市场的一个重要分支，近年来呈现出明显的消费升级趋势。随着消费者健康意. 识的增强，低度数、口感柔和、健康导向的白酒产品越来越受到青睐。"
     },
     {
       "category": "国内专业",
       "site": "venndata.cn",
       "status": "未命中",
-      "reason": "未检索到关键词相关结果",
-      "evidence": "",
-      "title": ""
+      "evidence": null,
+      "reason": "SerpApi 未检索到关键词相关结果"
     },
     {
       "category": "国内专业",
       "site": "cbndata.com",
       "status": "命中",
-      "reason": "首先在产品方面，鸡尾酒和果酒为了迎合年轻消费群体的口感，通常会采用加水或混合勾兑的方式降低酒精度数。但是直接加水的处理方式，会导致口感淡薄，缺乏传统 ...",
       "evidence": "https://www.cbndata.com/information/294094",
-      "title": "微醺经济新势力：“精酿+ 茶”如何搅动酒饮市场？"
+      "reason": "微醺经济新势力：“精酿+ 茶”如何搅动酒饮市场？｜首先在产品方面，鸡尾酒和果酒为了迎合年轻消费群体的口感，通常会采用加水或混合勾兑的方式降低酒精度数。但是直接加水的处理方式，会导致口感淡薄，缺乏传统 ..."
     },
     {
       "category": "国内专业",
       "site": "hanghangcha.com",
       "status": "命中",
-      "reason": "2006年以来，日本RTD行业销量持续增长，十四年间复合增速达到6.9%，龙头三得利、麒麟的产品结构已经覆盖不同度数、不同口味的多个系列，比如三得利旗下有适合女性饮用的Horoyoi ...",
       "evidence": "https://www.hanghangcha.com/hhcQuestion/detail/1241346.html",
-      "title": "你知道三得利每个月都会推出RTD新品的特点_行行查"
+      "reason": "你知道三得利每个月都会推出RTD新品的特点_行行查｜2006年以来，日本RTD行业销量持续增长，十四年间复合增速达到6.9%，龙头三得利、麒麟的产品结构已经覆盖不同度数、不同口味的多个系列，比如三得利旗下有适合女性饮用的Horoyoi ..."
     },
     {
       "category": "低成本资源",
       "site": "199it.com",
       "status": "命中",
-      "reason": "分品类看，啤酒销量下降5%，葡萄酒下降6%，烈酒下降4%，三大传统品类同步承压；相较之下，RTD即饮鸡尾酒仅下降1%，成为少数仍在争夺增量的赛道，显示 ...",
       "evidence": "https://www.199it.com/archives/1820250.html",
-      "title": "美国酒精饮料量降5% RTD逆势增"
+      "reason": "美国酒精饮料量降5% RTD逆势增｜2025年美国总酒精饮料（TBA）销量同比下降5%，与宏观消费走弱的判断基本一致。分品类看，啤酒销量下降5%，葡萄酒下降6%，烈酒下降4%，三大传统品类同步承压； ..."
     },
     {
       "category": "低成本资源",
       "site": "mob.com/mobdata/report",
-      "status": "未命中",
-      "reason": "未检索到关键词相关结果",
-      "evidence": "",
-      "title": ""
+      "status": "命中",
+      "evidence": "https://www.mob.com/mobdata/report/129",
+      "reason": "2021年“韭零后”基民人群洞察｜2021年“韭零后”基民人群洞察 ; 一、2020基金“盛世” ; 二、 · 新基民跑步入场 ; 三、超5成新增基民是“韭零后” ; 四、“韭零后”是当之无愧的小财迷 ; 五、“韭零后” ..."
     },
     {
       "category": "电商数据",
       "site": "nint.com",
       "status": "命中",
-      "reason": "内容标签树是品牌场景化营销的科学生态引擎。它通过AI驱动构建分类体系，将模糊消费需求转化为量化标签，助力品牌低成本捕捉场景机会，实现科学决策转型， ...",
-      "evidence": "https://www.nint.com/case/259nrbqs",
-      "title": "内容标签树：驱动品牌场景化营销的科学落地​ - Nint任拓"
+      "evidence": "https://www.nint.com/case/20241015seo2",
+      "reason": "任拓全域电商测量，AI大数据助力品牌破局｜针对火锅烧烤场景，品牌推出解腻口味果酒，同时轻量化果酒包装使其便于成提携带。新品推出后，配合内容平台上的种草营销，该果酒新品刚一上市便获得了平台销售 ..."
     },
     {
       "category": "电商数据",
       "site": "zhoupudata.com",
       "status": "未命中",
-      "reason": "未检索到关键词相关结果",
-      "evidence": "",
-      "title": ""
+      "evidence": null,
+      "reason": "SerpApi 未检索到关键词相关结果"
     },
     {
       "category": "电商数据",
       "site": "similarwebcn.com",
       "status": "未命中",
-      "reason": "未检索到关键词相关结果",
-      "evidence": "",
-      "title": ""
+      "evidence": null,
+      "reason": "SerpApi 未检索到关键词相关结果"
     },
     {
       "category": "电商数据",
       "site": "similarweb.com",
       "status": "命中",
-      "reason": "对比exprof.pro与rtd-com.ru流量分析，免费了解exprof.pro为什么在建造及维修类别中排名#531，而rtd-com.ru排名#3532626 - 点击此处.",
-      "evidence": "https://www.similarweb.com/zh/website/exprof.pro/vs/rtd-com.ru/",
-      "title": "exprof.pro与rtd-com.ru的流量比较"
+      "evidence": "https://www.similarweb.com/zh/app/apple/1542784855/",
+      "reason": "5月3日的RTD Advisor应用程序分析｜5月3日iOS RTD Advisor应用程序统计数据：用户数和下载量分析，RTD Advisor竞争对手，每日和历史应用程序商店排名等等！点击此处."
     },
     {
       "category": "综合聚合",
       "site": "fxbaogao.com",
       "status": "命中",
-      "reason": "新酒饮赛道增长：精酿啤酒、果酒、RTD即饮酒等新酒饮品类快速增长，市场规模持续扩大。 场景替代效应：新酒饮正在系统性替代传统酒饮的消费场景，形成 ...",
       "evidence": "https://www.fxbaogao.com/detail/5219861",
-      "title": "[新经销]：2025 新酒饮行业发展报告"
+      "reason": "[新经销]：2025 新酒饮行业发展报告｜新酒饮赛道增长：精酿啤酒、果酒、RTD即饮酒等新酒饮品类快速增长，市场规模持续扩大。 场景替代效应：新酒饮正在系统性替代传统酒饮的消费场景，形成 ..."
     },
     {
       "category": "综合聚合",
       "site": "sgpjbg.com",
       "status": "命中",
-      "reason": "白酒市场调查分析报告. 三个皮匠报告-专业报告下载平台。为您提供各类国内机构报告+深度行业研究报告+全球性国际英文报告+专题报告打包+投资券商研报在线下载.",
       "evidence": "https://www.sgpjbg.com/zhuanti/baijiushichangdiaochafenxibaogao.html",
-      "title": "白酒市场调查分析报告-专题"
+      "reason": "白酒市场调查分析报告-专题｜白酒市场调查分析报告. 三个皮匠报告-专业报告下载平台。为您提供各类国内机构报告+深度行业研究报告+全球性国际英文报告+专题报告打包+投资券商研报在线下载."
     },
     {
       "category": "综合聚合",
       "site": "iresearch.com.cn",
       "status": "未命中",
-      "reason": "未检索到关键词相关结果",
-      "evidence": "",
-      "title": ""
+      "evidence": null,
+      "reason": "SerpApi 未检索到关键词相关结果"
     },
     {
       "category": "综合聚合",
       "site": "leadleo.com",
       "status": "命中",
-      "reason": "中国国潮低度酒代表品牌冰青，代表产品为青梅酒，采用国家专利工艺浸渍制成，2021年已完成B轮融资；另一国潮低度酒代表品牌落饮，代表产品为茶果酒，不仅在产品原料中加入 ...",
-      "evidence": "https://www.leadleo.com/article/details/6184c866c653e103f48f3482",
-      "title": "微醺文化的产物，低度酒赛道为何如此火热？"
+      "evidence": "https://www.leadleo.com/wiki/brief/62d6196a6440d59b927f0dff",
+      "reason": "低度酒行业分析｜低度酒通常指酒精含量低于20度的酒类饮品，其口味特点是口感回甘，清爽温和。不同于高度酒贮存时间越久酒味越醇厚，低度酒无法长久保存。这是由于高度酒（如白酒、黄酒等） ..."
     },
     {
       "category": "财务数据",
       "site": "eastmoney.com",
       "status": "命中",
-      "reason": "手机东方财富网是东方财富网的手机门户网站，为亿万用户打造一个手机联通世界的超级平台，提供7*24小时全面及时的财经中文资讯，内容覆盖国内外突发事件、股市资讯、全球 ...",
-      "evidence": "https://wap.eastmoney.com/quote/stock/90.BK0896.html",
-      "title": "白酒(BK0896)最新价格_行情_走势图"
+      "evidence": "http://quote.eastmoney.com/unify/r/90.BK0896?jump_to_web=true",
+      "reason": "白酒(BK0896)_行情中心｜提供白酒(BK0896)的行情走势、资金流向、行业概念板块排行、成份股排行、大盘分析、证券聚焦、市场总貌、股吧互动等与白酒(BK0896)有关的信息和服务。"
     },
     {
       "category": "财务数据",
       "site": "10jqka.com.cn",
       "status": "命中",
-      "reason": "白酒行业专家肖竹青告诉记者，i茅台的微调，体现出贵州茅台对“悦己饮酒”新风尚的响应——白酒消费正从政务/商务宴请向大众自饮、居家微醺迁移；同时，晚间时段 ...",
-      "evidence": "http://news.10jqka.com.cn/field/20260523/676917429.shtml",
-      "title": "白酒终端混战不止酒类流通产业转型加速"
+      "evidence": "https://m.10jqka.com.cn/20260601/c677104561.shtml",
+      "reason": "白酒巨头联手推“一两装” 冲刺年轻化市场｜日前，贵州茅台、五粮液等九大头部白酒品牌首次集体推出50毫升规格“小酌瓶”系列新品，将于今年618期间集中面世。这是中国酒业协会主导下，传统名酒针对 ..."
     },
     {
       "category": "财务数据",
       "site": "wind.com.cn",
-      "status": "未命中",
-      "reason": "SerpApi请求失败：URLError",
-      "evidence": "",
-      "title": ""
+      "status": "命中",
+      "evidence": "https://www.wind.com.cn/mobile/News/NewsDetail/zh.html?id=2676D994592B51090B756E03EA86D93E&lang=ON2002",
+      "reason": "“老登股”归来！A股风格大切换？ | 万得信息网｜首先，以白酒为首的大消费板块反复异动。据Wind数据显示，白酒指数自5月25日以来震荡走强，于5月29日大涨3.6%， 酒鬼酒 强势涨停。"
     }
   ]
 }
