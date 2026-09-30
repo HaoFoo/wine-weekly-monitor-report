@@ -1,0 +1,177 @@
+{
+  "week": "2026-W40",
+  "generatedAt": "2026-09-30 15:48",
+  "keywords": [
+    "果酒",
+    "新酒饮",
+    "低度酒",
+    "RTD",
+    "微醺经济",
+    "白酒"
+  ],
+  "totalSites": 23,
+  "hitSites": 12,
+  "results": [
+    {
+      "category": "国际权威",
+      "site": "euromonitor.com",
+      "status": "未命中",
+      "evidence": null,
+      "reason": "SerpApi 未检索到关键词相关结果"
+    },
+    {
+      "category": "国际权威",
+      "site": "china.mintel.com",
+      "status": "未命中",
+      "evidence": null,
+      "reason": "SerpApi 请求失败：TimeoutError"
+    },
+    {
+      "category": "国际权威",
+      "site": "nielseniq.cn",
+      "status": "命中",
+      "evidence": "https://nielseniq.cn/global/zh/insights/report/2025/niq-2025-cga-2035-bar-outlook-cn/",
+      "reason": "2035年酒吧业展望: 揭秘未来酒饮4大趋势- nielseniq-cn｜报告揭示，‌30%的消费者倾向于购买低度酒饮。‌34%的调酒师认为无酒精烈酒将是鸡尾酒调制的未来趋势，随之而来的清醒消费风潮正在迅速流行。 2035年 ..."
+    },
+    {
+      "category": "国际权威",
+      "site": "kantarworldpanel.com",
+      "status": "未命中",
+      "evidence": null,
+      "reason": "SerpApi 请求失败：TimeoutError"
+    },
+    {
+      "category": "国际权威",
+      "site": "cn.kantar.com",
+      "status": "未命中",
+      "evidence": null,
+      "reason": "SerpApi 未检索到关键词相关结果"
+    },
+    {
+      "category": "国内专业",
+      "site": "mktindex.com",
+      "status": "命中",
+      "evidence": "https://www.mktindex.com/static/reportdetail/index.html?book_id=article_20260722",
+      "reason": "从\"好闻\"到\"好心情\"：香薰蜡烛的119亿，正在从气味转向场景｜低度果酒年销16.06亿元、增长24.3%：它的对手不是\"酒\"，是饮料. 宠物奶酪这门生意，卡在\"好吃\"和\"有效\"之间. 头皮护理年销27.00亿：消费者买单的不是效果，是安心. 月饼 ..."
+    },
+    {
+      "category": "国内专业",
+      "site": "cir.cn",
+      "status": "未命中",
+      "evidence": null,
+      "reason": "SerpApi 未检索到关键词相关结果"
+    },
+    {
+      "category": "国内专业",
+      "site": "venndata.cn",
+      "status": "未命中",
+      "evidence": null,
+      "reason": "SerpApi 未检索到关键词相关结果"
+    },
+    {
+      "category": "国内专业",
+      "site": "cbndata.com",
+      "status": "命中",
+      "evidence": "https://www.cbndata.com/report/2825/detail",
+      "reason": "2021-2022年中国低度酒行业现状与发展趋势研究报告｜艾媒咨询发布了《2021-2022年中国低度酒行业现状与发展趋势研究报告》，数据显示，2017-2021年，中国低度酒销售市场规模整体保持高速增长态势，预计2022年将突破5000亿元。"
+    },
+    {
+      "category": "国内专业",
+      "site": "hanghangcha.com",
+      "status": "未命中",
+      "evidence": null,
+      "reason": "SerpApi 请求失败：TimeoutError"
+    },
+    {
+      "category": "低成本资源",
+      "site": "199it.com",
+      "status": "命中",
+      "evidence": "https://www.199it.com/archives/1750691.html",
+      "reason": "德勤咨询：2025年中国消费品和零售行业纵览｜白酒、宠物食品和化妆品等领域增长强劲，而啤酒、畜牧养殖、乳制品等行业则面临需求不足、成本压力和政策调整的挑战，增速出现下滑。整体来看，消费 ..."
+    },
+    {
+      "category": "低成本资源",
+      "site": "mob.com/mobdata/report",
+      "status": "未命中",
+      "evidence": null,
+      "reason": "SerpApi 未检索到关键词相关结果"
+    },
+    {
+      "category": "电商数据",
+      "site": "nint.com",
+      "status": "命中",
+      "evidence": "https://www.nint.com/case/2511dshysj",
+      "reason": "黄金周电商行业数据分析，看懂国人假日消费习惯｜任拓通过分析电商数据，揭示了一个有趣的变化：尽管白酒表现稳健，但葡萄酒以62%的环比增速，微弱领先于白酒的60%。这一细微的行业数据差异，或许暗示 ..."
+    },
+    {
+      "category": "电商数据",
+      "site": "zhoupudata.com",
+      "status": "命中",
+      "evidence": "https://www.zhoupudata.com/app/blogDetailApp.html?id=16",
+      "reason": "舟谱： 2022~2025 快消品线下渠道变迁白皮书｜汇总2025 年三大成熟渠道GMV 表现，区分各品类门店数量、单店销售额涨跌情况，对比水饮、调味品、啤酒等稳健品类与白酒、休食、乳品等下滑品类的渠道 ..."
+    },
+    {
+      "category": "电商数据",
+      "site": "similarwebcn.com",
+      "status": "未命中",
+      "evidence": null,
+      "reason": "SerpApi 未检索到关键词相关结果"
+    },
+    {
+      "category": "电商数据",
+      "site": "similarweb.com",
+      "status": "命中",
+      "evidence": "https://www.similarweb.com/zh-tw/website/payment.denvergov.org/vs/rtd-denver.com/",
+      "reason": "payment.denvergov.org與rtd-denver.com 流量比較｜比較payment.denvergov.org 和rtd-denver.com 過去三個月的全球排名趨勢，或深入分析payment.denvergov.org 在特定類別或國家的排名，並與rtd-denver.com 進行對比。"
+    },
+    {
+      "category": "综合聚合",
+      "site": "fxbaogao.com",
+      "status": "命中",
+      "evidence": "https://fxbaogao.com/detail/3928389",
+      "reason": "食品饮料行业周报：白酒双节表现平稳，饮料新品值得重视｜核心观点：白酒动销环比加速，电解质水新品表现较好9月18日-9月22日，食品饮料指数涨幅为1.2%，一级子行业排名第7，跑赢沪深300约0.4pct，子行业中白酒（+1.5%）、乳品（+ ..."
+    },
+    {
+      "category": "综合聚合",
+      "site": "sgpjbg.com",
+      "status": "命中",
+      "evidence": "https://bg.sgpjbg.com/searchtag/26355388.html",
+      "reason": "中国酒业协会白酒白皮书｜2025年白酒产量354.9万千升，连续十年下滑，营收利润双降。本页聚合数十份权威报告及中国酒业协会白皮书核心数据，深度解读量价利三收缩、消费悦己化 ..."
+    },
+    {
+      "category": "综合聚合",
+      "site": "iresearch.com.cn",
+      "status": "未命中",
+      "evidence": null,
+      "reason": "SerpApi 未检索到关键词相关结果"
+    },
+    {
+      "category": "综合聚合",
+      "site": "leadleo.com",
+      "status": "命中",
+      "evidence": "https://www.leadleo.com/static/wiki",
+      "reason": "词条报告｜词条报告是头豹研究院基于独立研发的脑力擎写作平台创作而成的行业研究报告。词条数据库底层结构依托于五级行业目录设计，总量超过10万+行业词条，500万+原创数据，从 ..."
+    },
+    {
+      "category": "财务数据",
+      "site": "eastmoney.com",
+      "status": "命中",
+      "evidence": "https://wap.eastmoney.com/quote/stock/90.BK0896.html",
+      "reason": "白酒(BK0896)最新价格_行情_走势图｜手机东方财富网是东方财富网的手机门户网站，为亿万用户打造一个手机联通世界的超级平台，提供7*24小时全面及时的财经中文资讯，内容覆盖国内外突发事件、股市资讯、 ..."
+    },
+    {
+      "category": "财务数据",
+      "site": "10jqka.com.cn",
+      "status": "未命中",
+      "evidence": null,
+      "reason": "SerpApi 未检索到关键词相关结果"
+    },
+    {
+      "category": "财务数据",
+      "site": "wind.com.cn",
+      "status": "命中",
+      "evidence": "https://www.wind.com.cn/mobile/News/NewsDetail/zh.html?id=2676D994592B51090B756E03EA86D93E&lang=ON2002",
+      "reason": "“老登股”归来！A股风格大切换？ | 万得信息网｜首先，以白酒为首的大消费板块反复异动。据Wind数据显示，白酒指数自5月25日以来震荡走强，于5月29日大涨3.6%， 酒鬼酒 强势涨停。"
+    }
+  ]
+}
