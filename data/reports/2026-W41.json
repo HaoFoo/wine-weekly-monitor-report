@@ -1,0 +1,177 @@
+{
+  "week": "2026-W41",
+  "generatedAt": "2026-10-07 16:00",
+  "keywords": [
+    "果酒",
+    "新酒饮",
+    "低度酒",
+    "RTD",
+    "微醺经济",
+    "白酒"
+  ],
+  "totalSites": 23,
+  "hitSites": 5,
+  "results": [
+    {
+      "category": "国际权威",
+      "site": "euromonitor.com",
+      "status": "未命中",
+      "evidence": null,
+      "reason": "SerpApi 请求失败：TimeoutError"
+    },
+    {
+      "category": "国际权威",
+      "site": "china.mintel.com",
+      "status": "命中",
+      "evidence": "https://china.mintel.com/insights/food-and-drink/global-drinks-industry-now-and-next/",
+      "reason": "全球饮料行业展望：趋势、挑战与创新 - 英敏特｜重塑全球酒精饮料市场的突出创新. 五粮液重构传统的白酒产品，通过降低酒精度，品牌直接回应了消费者对更健康、更理性饮酒选择日益增长的需求。（中国 ..."
+    },
+    {
+      "category": "国际权威",
+      "site": "nielseniq.cn",
+      "status": "未命中",
+      "evidence": null,
+      "reason": "SerpApi 未检索到关键词相关结果"
+    },
+    {
+      "category": "国际权威",
+      "site": "kantarworldpanel.com",
+      "status": "命中",
+      "evidence": "https://www.kantarworldpanel.com/dwl.php?sn=publications&id=1450",
+      "reason": "Despite Slowing GDP Growth, China's Consumers Keep ...｜In the third quarter of 2019, China's GDP growth rate dipped to 6.0%, the lowest level in 27 years, but you couldn't tell that from ..."
+    },
+    {
+      "category": "国际权威",
+      "site": "cn.kantar.com",
+      "status": "未命中",
+      "evidence": null,
+      "reason": "SerpApi 未检索到关键词相关结果"
+    },
+    {
+      "category": "国内专业",
+      "site": "mktindex.com",
+      "status": "未命中",
+      "evidence": null,
+      "reason": "SerpApi 未检索到关键词相关结果"
+    },
+    {
+      "category": "国内专业",
+      "site": "cir.cn",
+      "status": "未命中",
+      "evidence": null,
+      "reason": "SerpApi 未检索到关键词相关结果"
+    },
+    {
+      "category": "国内专业",
+      "site": "venndata.cn",
+      "status": "未命中",
+      "evidence": null,
+      "reason": "SerpApi 未检索到关键词相关结果"
+    },
+    {
+      "category": "国内专业",
+      "site": "cbndata.com",
+      "status": "未命中",
+      "evidence": null,
+      "reason": "SerpApi 未检索到关键词相关结果"
+    },
+    {
+      "category": "国内专业",
+      "site": "hanghangcha.com",
+      "status": "命中",
+      "evidence": "https://www.hanghangcha.com/hhcQuestion/detail/508045.html",
+      "reason": "非常想了解中国白酒月产量（万千升）的答案｜从中高端酒价格来看，根据京东数据，五粮液普五第二代经典52度浓香型白酒500ml、洋河梦之蓝(M3)(52度)500ml和泸州老窖国窖157352度浓香型白酒500ml的最新价格分别为1259元/ ..."
+    },
+    {
+      "category": "低成本资源",
+      "site": "199it.com",
+      "status": "未命中",
+      "evidence": null,
+      "reason": "SerpApi 请求失败：TimeoutError"
+    },
+    {
+      "category": "低成本资源",
+      "site": "mob.com/mobdata/report",
+      "status": "未命中",
+      "evidence": null,
+      "reason": "SerpApi 未检索到关键词相关结果"
+    },
+    {
+      "category": "电商数据",
+      "site": "nint.com",
+      "status": "未命中",
+      "evidence": null,
+      "reason": "SerpApi 未检索到关键词相关结果"
+    },
+    {
+      "category": "电商数据",
+      "site": "zhoupudata.com",
+      "status": "未命中",
+      "evidence": null,
+      "reason": "SerpApi 未检索到关键词相关结果"
+    },
+    {
+      "category": "电商数据",
+      "site": "similarwebcn.com",
+      "status": "未命中",
+      "evidence": null,
+      "reason": "SerpApi 未检索到关键词相关结果"
+    },
+    {
+      "category": "电商数据",
+      "site": "similarweb.com",
+      "status": "未命中",
+      "evidence": null,
+      "reason": "SerpApi 未检索到关键词相关结果"
+    },
+    {
+      "category": "综合聚合",
+      "site": "fxbaogao.com",
+      "status": "未命中",
+      "evidence": null,
+      "reason": "SerpApi 未检索到关键词相关结果"
+    },
+    {
+      "category": "综合聚合",
+      "site": "sgpjbg.com",
+      "status": "命中",
+      "evidence": "https://bg.sgpjbg.com/searchtag/26355388.html",
+      "reason": "中国酒业协会白酒白皮书｜2025年白酒产量354.9万千升，连续十年下滑，营收利润双降。本页聚合数十份权威报告及中国酒业协会白皮书核心数据，深度解读量价利三收缩、消费悦己化 ..."
+    },
+    {
+      "category": "综合聚合",
+      "site": "iresearch.com.cn",
+      "status": "未命中",
+      "evidence": null,
+      "reason": "SerpApi 未检索到关键词相关结果"
+    },
+    {
+      "category": "综合聚合",
+      "site": "leadleo.com",
+      "status": "命中",
+      "evidence": "https://www.leadleo.com/article/details/6073b6354efcf43c794632ae",
+      "reason": "百润股份逆势上扬，预调酒行业整装待发｜传统酒桌文化遭到年轻人的排斥，新生代年轻人的饮酒观念和饮酒方式正在发生转变。日益增长的预调酒、果酒等低度酒水饮料也反映出当代年轻人的饮酒态度。过去社交占主导地位 ..."
+    },
+    {
+      "category": "财务数据",
+      "site": "eastmoney.com",
+      "status": "未命中",
+      "evidence": null,
+      "reason": "SerpApi 请求失败：TimeoutError"
+    },
+    {
+      "category": "财务数据",
+      "site": "10jqka.com.cn",
+      "status": "未命中",
+      "evidence": null,
+      "reason": "SerpApi 未检索到关键词相关结果"
+    },
+    {
+      "category": "财务数据",
+      "site": "wind.com.cn",
+      "status": "未命中",
+      "evidence": null,
+      "reason": "SerpApi 未检索到关键词相关结果"
+    }
+  ]
+}
