@@ -1,0 +1,177 @@
+{
+  "week": "2026-W42",
+  "generatedAt": "2026-10-14 14:57",
+  "keywords": [
+    "果酒",
+    "新酒饮",
+    "低度酒",
+    "RTD",
+    "微醺经济",
+    "白酒"
+  ],
+  "totalSites": 23,
+  "hitSites": 2,
+  "results": [
+    {
+      "category": "国际权威",
+      "site": "euromonitor.com",
+      "status": "未命中",
+      "evidence": null,
+      "reason": "SerpApi 未检索到关键词相关结果"
+    },
+    {
+      "category": "国际权威",
+      "site": "china.mintel.com",
+      "status": "未命中",
+      "evidence": null,
+      "reason": "SerpApi 未检索到关键词相关结果"
+    },
+    {
+      "category": "国际权威",
+      "site": "nielseniq.cn",
+      "status": "未命中",
+      "evidence": null,
+      "reason": "SerpApi 未检索到关键词相关结果"
+    },
+    {
+      "category": "国际权威",
+      "site": "kantarworldpanel.com",
+      "status": "未命中",
+      "evidence": null,
+      "reason": "SerpApi 未检索到关键词相关结果"
+    },
+    {
+      "category": "国际权威",
+      "site": "cn.kantar.com",
+      "status": "未命中",
+      "evidence": null,
+      "reason": "SerpApi 未检索到关键词相关结果"
+    },
+    {
+      "category": "国内专业",
+      "site": "mktindex.com",
+      "status": "未命中",
+      "evidence": null,
+      "reason": "SerpApi 请求失败：TimeoutError"
+    },
+    {
+      "category": "国内专业",
+      "site": "cir.cn",
+      "status": "未命中",
+      "evidence": null,
+      "reason": "SerpApi 未检索到关键词相关结果"
+    },
+    {
+      "category": "国内专业",
+      "site": "venndata.cn",
+      "status": "未命中",
+      "evidence": null,
+      "reason": "SerpApi 未检索到关键词相关结果"
+    },
+    {
+      "category": "国内专业",
+      "site": "cbndata.com",
+      "status": "未命中",
+      "evidence": null,
+      "reason": "SerpApi 未检索到关键词相关结果"
+    },
+    {
+      "category": "国内专业",
+      "site": "hanghangcha.com",
+      "status": "未命中",
+      "evidence": null,
+      "reason": "SerpApi 未检索到关键词相关结果"
+    },
+    {
+      "category": "低成本资源",
+      "site": "199it.com",
+      "status": "未命中",
+      "evidence": null,
+      "reason": "SerpApi 未检索到关键词相关结果"
+    },
+    {
+      "category": "低成本资源",
+      "site": "mob.com/mobdata/report",
+      "status": "命中",
+      "evidence": "https://mob.com/mobdata/report/116",
+      "reason": "2020年英雄联盟全球总决赛观赛人群洞察｜今年的总决赛和往年最与众不同的，就是线下观赛资格的获取啦。往年都是App售票的形式，在这场拼手速的较量中，往往只有网速极快的粉丝才能战胜靠贩卖高价 ..."
+    },
+    {
+      "category": "电商数据",
+      "site": "nint.com",
+      "status": "未命中",
+      "evidence": null,
+      "reason": "SerpApi 未检索到关键词相关结果"
+    },
+    {
+      "category": "电商数据",
+      "site": "zhoupudata.com",
+      "status": "未命中",
+      "evidence": null,
+      "reason": "SerpApi 未检索到关键词相关结果"
+    },
+    {
+      "category": "电商数据",
+      "site": "similarwebcn.com",
+      "status": "未命中",
+      "evidence": null,
+      "reason": "SerpApi 未检索到关键词相关结果"
+    },
+    {
+      "category": "电商数据",
+      "site": "similarweb.com",
+      "status": "未命中",
+      "evidence": null,
+      "reason": "SerpApi 未检索到关键词相关结果"
+    },
+    {
+      "category": "综合聚合",
+      "site": "fxbaogao.com",
+      "status": "未命中",
+      "evidence": null,
+      "reason": "SerpApi 请求失败：TimeoutError"
+    },
+    {
+      "category": "综合聚合",
+      "site": "sgpjbg.com",
+      "status": "未命中",
+      "evidence": null,
+      "reason": "SerpApi 未检索到关键词相关结果"
+    },
+    {
+      "category": "综合聚合",
+      "site": "iresearch.com.cn",
+      "status": "未命中",
+      "evidence": null,
+      "reason": "SerpApi 未检索到关键词相关结果"
+    },
+    {
+      "category": "综合聚合",
+      "site": "leadleo.com",
+      "status": "命中",
+      "evidence": "https://www.leadleo.com/static/wiki",
+      "reason": "词条报告｜词条报告是头豹研究院基于独立研发的脑力擎写作平台创作而成的行业研究报告。词条数据库底层结构依托于五级行业目录设计，总量超过10万+行业词条，500万+原创数据，从 ..."
+    },
+    {
+      "category": "财务数据",
+      "site": "eastmoney.com",
+      "status": "未命中",
+      "evidence": null,
+      "reason": "SerpApi 未检索到关键词相关结果"
+    },
+    {
+      "category": "财务数据",
+      "site": "10jqka.com.cn",
+      "status": "未命中",
+      "evidence": null,
+      "reason": "SerpApi 未检索到关键词相关结果"
+    },
+    {
+      "category": "财务数据",
+      "site": "wind.com.cn",
+      "status": "未命中",
+      "evidence": null,
+      "reason": "SerpApi 请求失败：TimeoutError"
+    }
+  ]
+}
