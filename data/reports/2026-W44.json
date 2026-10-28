@@ -1,0 +1,177 @@
+{
+  "week": "2026-W44",
+  "generatedAt": "2026-10-28 15:48",
+  "keywords": [
+    "果酒",
+    "新酒饮",
+    "低度酒",
+    "RTD",
+    "微醺经济",
+    "白酒"
+  ],
+  "totalSites": 23,
+  "hitSites": 2,
+  "results": [
+    {
+      "category": "国际权威",
+      "site": "euromonitor.com",
+      "status": "未命中",
+      "evidence": null,
+      "reason": "SerpApi 未检索到关键词相关结果"
+    },
+    {
+      "category": "国际权威",
+      "site": "china.mintel.com",
+      "status": "未命中",
+      "evidence": null,
+      "reason": "SerpApi 未检索到关键词相关结果"
+    },
+    {
+      "category": "国际权威",
+      "site": "nielseniq.cn",
+      "status": "未命中",
+      "evidence": null,
+      "reason": "SerpApi 未检索到关键词相关结果"
+    },
+    {
+      "category": "国际权威",
+      "site": "kantarworldpanel.com",
+      "status": "未命中",
+      "evidence": null,
+      "reason": "SerpApi 未检索到关键词相关结果"
+    },
+    {
+      "category": "国际权威",
+      "site": "cn.kantar.com",
+      "status": "未命中",
+      "evidence": null,
+      "reason": "SerpApi 未检索到关键词相关结果"
+    },
+    {
+      "category": "国内专业",
+      "site": "mktindex.com",
+      "status": "未命中",
+      "evidence": null,
+      "reason": "SerpApi 未检索到关键词相关结果"
+    },
+    {
+      "category": "国内专业",
+      "site": "cir.cn",
+      "status": "未命中",
+      "evidence": null,
+      "reason": "SerpApi 未检索到关键词相关结果"
+    },
+    {
+      "category": "国内专业",
+      "site": "venndata.cn",
+      "status": "未命中",
+      "evidence": null,
+      "reason": "SerpApi 未检索到关键词相关结果"
+    },
+    {
+      "category": "国内专业",
+      "site": "cbndata.com",
+      "status": "命中",
+      "evidence": "https://cbndata.com/information/295655",
+      "reason": "销量下滑，新品腰斩：这个夏天，冰淇淋“冷”了？｜2026年二季度国内雪糕/冰淇淋销售额同比下降13.1%，新品数量从去年的790个近乎腰斩至408个，行业扩张脚步明显放缓。 据马上 ..."
+    },
+    {
+      "category": "国内专业",
+      "site": "hanghangcha.com",
+      "status": "未命中",
+      "evidence": null,
+      "reason": "SerpApi 未检索到关键词相关结果"
+    },
+    {
+      "category": "低成本资源",
+      "site": "199it.com",
+      "status": "未命中",
+      "evidence": null,
+      "reason": "SerpApi 未检索到关键词相关结果"
+    },
+    {
+      "category": "低成本资源",
+      "site": "mob.com/mobdata/report",
+      "status": "未命中",
+      "evidence": null,
+      "reason": "SerpApi 未检索到关键词相关结果"
+    },
+    {
+      "category": "电商数据",
+      "site": "nint.com",
+      "status": "未命中",
+      "evidence": null,
+      "reason": "SerpApi 未检索到关键词相关结果"
+    },
+    {
+      "category": "电商数据",
+      "site": "zhoupudata.com",
+      "status": "未命中",
+      "evidence": null,
+      "reason": "SerpApi 未检索到关键词相关结果"
+    },
+    {
+      "category": "电商数据",
+      "site": "similarwebcn.com",
+      "status": "未命中",
+      "evidence": null,
+      "reason": "SerpApi 未检索到关键词相关结果"
+    },
+    {
+      "category": "电商数据",
+      "site": "similarweb.com",
+      "status": "未命中",
+      "evidence": null,
+      "reason": "SerpApi 未检索到关键词相关结果"
+    },
+    {
+      "category": "综合聚合",
+      "site": "fxbaogao.com",
+      "status": "未命中",
+      "evidence": null,
+      "reason": "SerpApi 未检索到关键词相关结果"
+    },
+    {
+      "category": "综合聚合",
+      "site": "sgpjbg.com",
+      "status": "未命中",
+      "evidence": null,
+      "reason": "SerpApi 未检索到关键词相关结果"
+    },
+    {
+      "category": "综合聚合",
+      "site": "iresearch.com.cn",
+      "status": "未命中",
+      "evidence": null,
+      "reason": "SerpApi 未检索到关键词相关结果"
+    },
+    {
+      "category": "综合聚合",
+      "site": "leadleo.com",
+      "status": "未命中",
+      "evidence": null,
+      "reason": "SerpApi 未检索到关键词相关结果"
+    },
+    {
+      "category": "财务数据",
+      "site": "eastmoney.com",
+      "status": "命中",
+      "evidence": "https://wap.eastmoney.com/quote/stock/90.BK0896.html",
+      "reason": "白酒(BK0896)最新价格_行情_走势图｜手机东方财富网是东方财富网的手机门户网站，为亿万用户打造一个手机联通世界的超级平台，提供7*24小时全面及时的财经中文资讯，内容覆盖国内外突发事件、股市资讯、 ..."
+    },
+    {
+      "category": "财务数据",
+      "site": "10jqka.com.cn",
+      "status": "未命中",
+      "evidence": null,
+      "reason": "SerpApi 未检索到关键词相关结果"
+    },
+    {
+      "category": "财务数据",
+      "site": "wind.com.cn",
+      "status": "未命中",
+      "evidence": null,
+      "reason": "SerpApi 未检索到关键词相关结果"
+    }
+  ]
+}
