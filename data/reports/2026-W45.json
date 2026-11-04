@@ -1,0 +1,177 @@
+{
+  "week": "2026-W45",
+  "generatedAt": "2026-11-04 16:24",
+  "keywords": [
+    "果酒",
+    "新酒饮",
+    "低度酒",
+    "RTD",
+    "微醺经济",
+    "白酒"
+  ],
+  "totalSites": 23,
+  "hitSites": 4,
+  "results": [
+    {
+      "category": "国际权威",
+      "site": "euromonitor.com",
+      "status": "未命中",
+      "evidence": null,
+      "reason": "SerpApi 未检索到关键词相关结果"
+    },
+    {
+      "category": "国际权威",
+      "site": "china.mintel.com",
+      "status": "未命中",
+      "evidence": null,
+      "reason": "SerpApi 未检索到关键词相关结果"
+    },
+    {
+      "category": "国际权威",
+      "site": "nielseniq.cn",
+      "status": "未命中",
+      "evidence": null,
+      "reason": "SerpApi 未检索到关键词相关结果"
+    },
+    {
+      "category": "国际权威",
+      "site": "kantarworldpanel.com",
+      "status": "未命中",
+      "evidence": null,
+      "reason": "SerpApi 未检索到关键词相关结果"
+    },
+    {
+      "category": "国际权威",
+      "site": "cn.kantar.com",
+      "status": "未命中",
+      "evidence": null,
+      "reason": "SerpApi 未检索到关键词相关结果"
+    },
+    {
+      "category": "国内专业",
+      "site": "mktindex.com",
+      "status": "未命中",
+      "evidence": null,
+      "reason": "SerpApi 未检索到关键词相关结果"
+    },
+    {
+      "category": "国内专业",
+      "site": "cir.cn",
+      "status": "未命中",
+      "evidence": null,
+      "reason": "SerpApi 未检索到关键词相关结果"
+    },
+    {
+      "category": "国内专业",
+      "site": "venndata.cn",
+      "status": "未命中",
+      "evidence": null,
+      "reason": "SerpApi 未检索到关键词相关结果"
+    },
+    {
+      "category": "国内专业",
+      "site": "cbndata.com",
+      "status": "未命中",
+      "evidence": null,
+      "reason": "SerpApi 未检索到关键词相关结果"
+    },
+    {
+      "category": "国内专业",
+      "site": "hanghangcha.com",
+      "status": "未命中",
+      "evidence": null,
+      "reason": "SerpApi 未检索到关键词相关结果"
+    },
+    {
+      "category": "低成本资源",
+      "site": "199it.com",
+      "status": "命中",
+      "evidence": "https://www.199it.com/archives/1846177.html",
+      "reason": "Ipsos&WSR：2026年全球酒精饮料消费趋势报告｜过去十年，创新贡献了超过55%的酒精饮料零售价值增长，其中52%的消费者将口味作为选择RTD产品的首要因素，39%的消费者则将便利性列入前三大购买因素。RTD ..."
+    },
+    {
+      "category": "低成本资源",
+      "site": "mob.com/mobdata/report",
+      "status": "未命中",
+      "evidence": null,
+      "reason": "SerpApi 未检索到关键词相关结果"
+    },
+    {
+      "category": "电商数据",
+      "site": "nint.com",
+      "status": "未命中",
+      "evidence": null,
+      "reason": "SerpApi 未检索到关键词相关结果"
+    },
+    {
+      "category": "电商数据",
+      "site": "zhoupudata.com",
+      "status": "未命中",
+      "evidence": null,
+      "reason": "SerpApi 未检索到关键词相关结果"
+    },
+    {
+      "category": "电商数据",
+      "site": "similarwebcn.com",
+      "status": "未命中",
+      "evidence": null,
+      "reason": "SerpApi 未检索到关键词相关结果"
+    },
+    {
+      "category": "电商数据",
+      "site": "similarweb.com",
+      "status": "未命中",
+      "evidence": null,
+      "reason": "SerpApi 未检索到关键词相关结果"
+    },
+    {
+      "category": "综合聚合",
+      "site": "fxbaogao.com",
+      "status": "未命中",
+      "evidence": null,
+      "reason": "SerpApi 未检索到关键词相关结果"
+    },
+    {
+      "category": "综合聚合",
+      "site": "sgpjbg.com",
+      "status": "未命中",
+      "evidence": null,
+      "reason": "SerpApi 未检索到关键词相关结果"
+    },
+    {
+      "category": "综合聚合",
+      "site": "iresearch.com.cn",
+      "status": "未命中",
+      "evidence": null,
+      "reason": "SerpApi 未检索到关键词相关结果"
+    },
+    {
+      "category": "综合聚合",
+      "site": "leadleo.com",
+      "status": "命中",
+      "evidence": "https://hr.leadleo.com/",
+      "reason": "HR 3.0 - 头豹｜人事. 退出. 登录. 伙伴/实习生 壹信 头豹 沙利文. 请先选择登录企业."
+    },
+    {
+      "category": "财务数据",
+      "site": "eastmoney.com",
+      "status": "命中",
+      "evidence": "http://quote.eastmoney.com/unify/r/90.BK0896?jump_to_web=true",
+      "reason": "白酒(BK0896)_行情中心 - 东方财富网｜提供白酒(BK0896)的行情走势、资金流向、行业概念板块排行、成份股排行、大盘分析、证券聚焦、市场总貌、股吧互动等与白酒(BK0896)有关的信息和服务。"
+    },
+    {
+      "category": "财务数据",
+      "site": "10jqka.com.cn",
+      "status": "命中",
+      "evidence": "http://q.10jqka.com.cn/thshy/detail/code/881273/",
+      "reason": "白酒（881273） - 行情中心- 同花顺｜白酒行业成分股涨跌排行榜. 序号, 代码, 名称, 现价, 涨跌幅(%), 涨跌, 涨速(%), 换手(%), 量比, 振幅(%), 成交额, 流通股, 流通市值, 市盈率. 序号, 代码, 名称, 现价 ..."
+    },
+    {
+      "category": "财务数据",
+      "site": "wind.com.cn",
+      "status": "未命中",
+      "evidence": null,
+      "reason": "SerpApi 未检索到关键词相关结果"
+    }
+  ]
+}
