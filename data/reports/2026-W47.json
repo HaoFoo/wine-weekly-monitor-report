@@ -1,0 +1,177 @@
+{
+  "week": "2026-W47",
+  "generatedAt": "2026-11-18 17:35",
+  "keywords": [
+    "果酒",
+    "新酒饮",
+    "低度酒",
+    "RTD",
+    "微醺经济",
+    "白酒"
+  ],
+  "totalSites": 23,
+  "hitSites": 4,
+  "results": [
+    {
+      "category": "国际权威",
+      "site": "euromonitor.com",
+      "status": "未命中",
+      "evidence": null,
+      "reason": "SerpApi 未检索到关键词相关结果"
+    },
+    {
+      "category": "国际权威",
+      "site": "china.mintel.com",
+      "status": "命中",
+      "evidence": "https://china.mintel.com/insights/food-and-drink/global-drinks-industry-now-and-next/",
+      "reason": "全球饮料行业展望：趋势、挑战与创新 - 英敏特｜重塑全球酒精饮料市场的突出创新. 五粮液重构传统的白酒产品，通过降低酒精度，品牌直接回应了消费者对更健康、更理性饮酒选择日益增长的需求。（中国 ..."
+    },
+    {
+      "category": "国际权威",
+      "site": "nielseniq.cn",
+      "status": "命中",
+      "evidence": "https://nielseniq.cn/global/zh/insights/report/2025/niq-2024-china-liquor-report/",
+      "reason": "2024 中国酒水市场报告 - 便利店趋势洞察｜随着全球经济一体化的发展，全球酒水市场规模逐年扩大，预计2025年全球酒类市场规模将达到近2.5万亿美元。中国酒水市场同样保持强劲增长，随着电商的 ..."
+    },
+    {
+      "category": "国际权威",
+      "site": "kantarworldpanel.com",
+      "status": "未命中",
+      "evidence": null,
+      "reason": "SerpApi 未检索到关键词相关结果"
+    },
+    {
+      "category": "国际权威",
+      "site": "cn.kantar.com",
+      "status": "未命中",
+      "evidence": null,
+      "reason": "SerpApi 未检索到关键词相关结果"
+    },
+    {
+      "category": "国内专业",
+      "site": "mktindex.com",
+      "status": "未命中",
+      "evidence": null,
+      "reason": "SerpApi 未检索到关键词相关结果"
+    },
+    {
+      "category": "国内专业",
+      "site": "cir.cn",
+      "status": "未命中",
+      "evidence": null,
+      "reason": "SerpApi 未检索到关键词相关结果"
+    },
+    {
+      "category": "国内专业",
+      "site": "venndata.cn",
+      "status": "未命中",
+      "evidence": null,
+      "reason": "SerpApi 未检索到关键词相关结果"
+    },
+    {
+      "category": "国内专业",
+      "site": "cbndata.com",
+      "status": "命中",
+      "evidence": "https://www.cbndata.com/information/294094",
+      "reason": "微醺经济新势力：“精酿+ 茶”如何搅动酒饮市场？｜首先在产品方面，鸡尾酒和果酒为了迎合年轻消费群体的口感，通常会采用加水或混合勾兑的方式降低酒精度数。但是直接加水的处理方式，会导致口感淡薄，缺乏 ..."
+    },
+    {
+      "category": "国内专业",
+      "site": "hanghangcha.com",
+      "status": "未命中",
+      "evidence": null,
+      "reason": "SerpApi 未检索到关键词相关结果"
+    },
+    {
+      "category": "低成本资源",
+      "site": "199it.com",
+      "status": "命中",
+      "evidence": "https://www.199it.com/archives/454314.html",
+      "reason": "尼尔森：解读数字时代下的白酒市场新机遇｜尼尔森近期发布《2016智胜白酒市场》报告，在经历了低迷期后，白酒行业在2015年呈现回暖趋势。大众消费成为主导，中价位产品的消费需求和线上渠道发展迅速。"
+    },
+    {
+      "category": "低成本资源",
+      "site": "mob.com/mobdata/report",
+      "status": "未命中",
+      "evidence": null,
+      "reason": "SerpApi 未检索到关键词相关结果"
+    },
+    {
+      "category": "电商数据",
+      "site": "nint.com",
+      "status": "未命中",
+      "evidence": null,
+      "reason": "SerpApi 未检索到关键词相关结果"
+    },
+    {
+      "category": "电商数据",
+      "site": "zhoupudata.com",
+      "status": "未命中",
+      "evidence": null,
+      "reason": "SerpApi 未检索到关键词相关结果"
+    },
+    {
+      "category": "电商数据",
+      "site": "similarwebcn.com",
+      "status": "未命中",
+      "evidence": null,
+      "reason": "SerpApi 未检索到关键词相关结果"
+    },
+    {
+      "category": "电商数据",
+      "site": "similarweb.com",
+      "status": "未命中",
+      "evidence": null,
+      "reason": "SerpApi 未检索到关键词相关结果"
+    },
+    {
+      "category": "综合聚合",
+      "site": "fxbaogao.com",
+      "status": "未命中",
+      "evidence": null,
+      "reason": "SerpApi 未检索到关键词相关结果"
+    },
+    {
+      "category": "综合聚合",
+      "site": "sgpjbg.com",
+      "status": "未命中",
+      "evidence": null,
+      "reason": "SerpApi 未检索到关键词相关结果"
+    },
+    {
+      "category": "综合聚合",
+      "site": "iresearch.com.cn",
+      "status": "未命中",
+      "evidence": null,
+      "reason": "SerpApi 未检索到关键词相关结果"
+    },
+    {
+      "category": "综合聚合",
+      "site": "leadleo.com",
+      "status": "未命中",
+      "evidence": null,
+      "reason": "SerpApi 未检索到关键词相关结果"
+    },
+    {
+      "category": "财务数据",
+      "site": "eastmoney.com",
+      "status": "未命中",
+      "evidence": null,
+      "reason": "SerpApi 未检索到关键词相关结果"
+    },
+    {
+      "category": "财务数据",
+      "site": "10jqka.com.cn",
+      "status": "未命中",
+      "evidence": null,
+      "reason": "SerpApi 未检索到关键词相关结果"
+    },
+    {
+      "category": "财务数据",
+      "site": "wind.com.cn",
+      "status": "未命中",
+      "evidence": null,
+      "reason": "SerpApi 未检索到关键词相关结果"
+    }
+  ]
+}
